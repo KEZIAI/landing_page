@@ -40,3 +40,62 @@ header h1{
 .nav-links li a:hover {
     color: #3882F6;
 }
+
+.about{
+    display: flex;
+    padding: 20px;
+    background-color: #1F2937;
+    padding: 70px 0px;
+    justify-content: center;
+    gap: 55px;
+} 
+
+.about-text{
+    flex-basis: 400px;
+    color: #e5e7ebd3;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+
+.about-text h2{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Helvetica;
+    color: #F9FAF8;
+    margin-bottom: 3px;
+}
+
+.about-image{
+    width: 500px; 
+    height: 200px;
+    overflow: hidden; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    
+}
+
+.about-image img{
+    width: 100%; 
+    height: auto;
+    display: block;
+}
+
+.button {
+    margin-top: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 7px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  .button:hover {
+    background-color: #296bc4;
+  }
+
+  .button:active {
+    transform: scale(0.95);
+  }

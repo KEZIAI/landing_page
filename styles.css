@@ -11,7 +11,7 @@ header{
     display: flex;
     padding-top: 50px;
     padding-right: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     padding-left: 40px;
     justify-content: space-around;
     background-color: #1F2937;
@@ -181,3 +181,54 @@ header h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* -------------------------SIGN UP SECTION----------------------------------- */
+
+.signup{
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.signup-container{
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 40px;
+    width: 85%;
+    display: flex   ;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.signup-text h4{
+    font-weight: bold;
+    font-family: Helvetica;
+    color: white;
+    font-size: 20px;
+}
+
+.signup-text p{
+    font-weight: lighter;
+    font-family: Helvetica;
+    color: rgba(255, 255, 255, 0.847);
+    font-size: 15px;
+
+}
+
+.signup-button{
+    background-color: #3881f600;
+    border-radius: 15px; 
+    border: 3px solid #ffffff; 
+    color: #F9FAF8;
+    padding: 7px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.signup-button:hover{
+    background-color: #2a4d9c;
+    transform: scale(1.05);
+}
